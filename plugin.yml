@@ -1,0 +1,17 @@
+name: FlyPlugin
+version: 1.0.0
+main: FlyPlugin\Main
+api: 5.0.0
+author: percocets100
+description: Simple fly plugin with bone meal effects
+
+commands:
+  fly:
+    description: Toggle fly mode
+    usage: /fly
+    permission: fly.use
+
+permissions:
+  fly.use:
+    description: Allow players to use fly command
+    default: op
